@@ -37,7 +37,18 @@ nav ul div{
     border-radius: 5px;
     border-color: black;
 }
+header button{
+    width: 12vh;
+    height: 5vh;
+    background-color: none;
+    border-color: black;
+}
 
+header button a{
+    background-color: none;
+    color:#8d99ae;
+
+}
 
 
 #corpo1{
@@ -101,8 +112,7 @@ margin-top: 20px;
     }
 
     #corpo2 img{
-        max-width: 150px;
-        max-height: 500px;
+        width: 30vh;
     }
 
     #corpo3{
@@ -164,7 +174,9 @@ margin-top: 20px;
     }
 
     #corpo4 button{
-ma
+
     }
+
+    
 
     
