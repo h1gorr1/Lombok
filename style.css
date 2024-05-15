@@ -1,197 +1,36 @@
-*{
+body {
     margin: 0;
     padding: 0;
-    list-style: none;
-    text-decoration: none;
-}
-
-
-header{
-    padding: 1rem;
-    display: flex;
-    justify-content: center;
-   
-    
-}
-
-header img{
-    width: 5rem;
-    
-}
-
-nav ul{ 
-    display: flex; 
-    justify-content: center; 
-}
-
-nav ul li{ 
-    margin-right: 30px;
-    
-}
-
-nav ul li a{
-    color:black;
-}
-
-nav ul div{
-    height: 30px;
-    width: 80px;
-    background-color: blue;
-    border-radius: 5px;
-    border-color: black;
-}
-header button{
-    width: 12vh;
-    height: 5vh;
-    background-color: none;
-    border-color: black;
-}
-
-.botao{
-    width: 12vh;
-    height: 5vh;
-    background-color: none;
-    border-color: black;
-}
-
-header button a{
-    background-color: none;
-    color:black;
-    font-size: 15px;
-
-}
-
-.header img{
-    justify-content: left;
-    font-size: 500px;
-}
-
-#corpo1{
-    padding: 10rem;
-    text-align: center;
-    justify-content: center;
-    background-image: url(imgs/corpo1.jpg);
-    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-image: url('img/thumb-1920-570696.jpg'); /* Substitua pelo URL da sua imagem de fundo */
     background-size: cover;
+    background-position: center 30px;
+    background-repeat: no-repeat;
 }
-
-#corpo1 h1{
-    font-size: 100px;
-    color: #8d99ae;
-    
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.5); /* Fundo semitransparente para o menu */
 }
-
-#corpo1 h2{
-    margin-top: 10px;
-    color: #8d99ae;
+.logo img {
+    width: 100px; /* Ajuste conforme necessário */
 }
-
-#corpo1 hr{
-    width: 50px;
-    height: 5px;
+.menu {
+    display: flex;
+    gap: 20px;
+}
+.menu a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
     border-radius: 5px;
-    border-color: white;
-margin-top: 20px;
-    margin-left: 530px;
-    background-color: #8d99ae;
 }
-
-    #corpo2{
-        padding: 10rem;
-        background-image: url(imgs/corpo2.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-    }
-
-    #pai {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 200px;
-        max-width: 500rem;
-        
-    }
-
-    #corpo2 pai div{
-        height: 200px;
-        width: 100px;
-        background-color: blue;
-        display: flex;
-        margin-right: 100px;
-    }
-
-    #texto2 h1 {
-        text-align: center;
-        margin-left: 50px;
-    }
-
-    #corpo2 img{
-        width: 30vh;
-    }
-
-    #corpo3{
-        display: flex;
-        justify-content: center;
-    }
-
-    #corpo3 img{
-        width: 75vh;
-    }
-
-    #corpo3 h2{
-        text-align: center;
-        color: #8d99ae;
-        margin-top: 70px;
-
-    }
-
-    #corpo3 hr{
-        width: 50px;
-        height: 5px;
-        border-radius: 5px;
-        border-color: white;
-        margin-top: 7px;
-        margin-left: 386px;
-        background-color: #8d99ae;
-    }
-
-    .paragrafo {
-        font-size: 12px;
-        text-align: justify;
-        margin-top: 20px;
-        margin-left: 50px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-#corpo4{
-    padding: 10rem;
-    background-color: #8d99ae;
-    justify-content: center;
+.menu a:hover {
+    background: #ddd;
 }
-
-
-    #corpo4 h1{
-        text-align: center;
-        margin-top: -120px;
-    }
-
-    #corpo4 p{
-        text-align: center;
-        margin: 5px;
-    }
-
-    #corpo4 input{
-        text-align: center;
-        margin-left: 425px;
-        width: 30vh;
-        height: 3vh;
-
-    }
-
-    #corpo4 button{
-
-    }
-
-    
-
-    
+.subscribe {
+    border: 5px solid white;
+}
