@@ -3,7 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    background-image: url('img/thumb-1920-570696.jpg'); /* Substitua pelo URL da sua imagem de fundo */
+    background-image: url('thumb-1920-570696.jpg'); /* Substitua pelo URL da sua imagem de fundo */
     background-size: cover;
     background-position: center 30px;
     background-repeat: no-repeat;
