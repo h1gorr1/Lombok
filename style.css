@@ -1,36 +1,211 @@
-body {
-    margin: 0;
+*{
     padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-    background-image: url('thumb-1920-570696.jpg'); /* Substitua pelo URL da sua imagem de fundo */
-    background-size: cover;
-    background-position: center 15px;
-    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
-.container {
+h2{
+    color: white;
+}
+
+header{
     display: flex;
     justify-content: space-between;
+    padding: 2vw;
+    background-color: transparent;
     align-items: center;
-    gap: 500px;
-    background: rgba(255, 255, 255, 0.5); /* Fundo semitransparente para o menu */
 }
-.logo img {
-    width: 100px; /* Ajuste conforme necessário */
+
+#imgLogo img{
+    height: 40px;
 }
-.menu {
+
+#navegacao nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#navegacao nav ul{
     display: flex;
     gap: 20px;
 }
-.menu a {
-    text-decoration: none;
-    color: #333;
-    padding: 10px 15px;
-    border-radius: 5px;
+.butao {
+    color: white;
+    font-size: 16px;
 }
-.menu a:hover {
-    background: #ddd;
+
+#navegacao nav ul li a{
+    color: white;
 }
-.subscribe {
-    border: 5px solid white;
+
+#navegacao nav a button{
+    padding: 7px;
+    background-color: transparent;
+    width: 8rem;
+    cursor: pointer;
 }
+
+#navegacao nav a button:hover{
+    background-color: rgba(#fefae0);
+    transition: 0.8s;
+}
+
+.sessaoUm{
+    background-image: url(imgs/thumb-1920-570696.jpg);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    margin-top: -5.4rem;
+    align-items: center;
+}
+
+.sessaoUm div{
+    margin-top: -15rem;
+}
+
+.sessaoUm div h1{
+    font-size: 6rem;
+    font-weight: 400;
+    color: white;
+}
+
+.line{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 50px;
+    margin: 20px auto;
+    color: white;
+}
+
+.lineDiv{
+    border: 1px solid black;
+    width: 30px;
+    margin: 10px auto;
+    margin-top: 50px;
+    color: white;
+}
+
+.sessaoDois{
+    padding: 5rem;
+    text-align: center;
+    background-color: rgba(153, 190, 153, 0.315);
+}
+
+#chefinho{
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#chefinho div{
+    width: 20rem;
+    height: 24rem;
+    background-color: white;
+    box-shadow: 0px 3px 10px black;
+}
+
+#chefinho div img{
+    width: 100%;
+    height: 50%;
+}
+
+#chefinho div p{
+    font-weight: 600;
+}
+
+#sessaoTres{
+    display: flex;
+    gap: 1rem;
+}
+
+
+.divImgTres img{
+    width: 50vw;
+    height: 100%;
+}
+
+#divTextTres{
+    width: 40vw;
+    padding: 2rem;
+}
+#divTextTres h2 {
+    margin-top: 50px;
+     text-align: center;
+     color: black;
+}
+#divTextTres p{
+    margin: 0 60px;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+#inscricao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    background-color:#fefae0;
+    text-align: center;
+    
+}
+
+#inscricao h2{
+    color: black;
+}
+
+#email{
+    padding: 0.8rem;
+    margin-top: 30px;    
+    width: 20rem;
+}
+
+#botao{
+    padding: 1rem;
+    background-color: transparent;
+    width: 10rem;
+    cursor: pointer;
+}
+
+
+footer{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5ebe0;
+   
+}
+
+
+footer div nav ul{
+    display: flex;
+}
+
+#divIcon nav ul{
+    gap: 5px;
+}
+#divIcon nav ul li a i{
+    color: white;
+    background-color: gray;
+    padding: 0.6rem;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#divTextFooter nav ul{
+    gap: 3rem;
+}
+
+#divTextFooter nav ul li a{
+    color: black;
+}
+
+
+
+
