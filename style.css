@@ -98,6 +98,10 @@ header{
     background-color: rgba(153, 190, 153, 0.315);
 }
 
+.sessaoDois h2{
+color: black;
+}
+
 #chefinho{
     gap: 40px;
     display: flex;
